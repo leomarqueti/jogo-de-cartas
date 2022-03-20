@@ -345,7 +345,7 @@ div#final-perder {
     left: -67px;
   }
   .resultado {
-    color: #ffffff;
+    color: #383737;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
@@ -358,6 +358,10 @@ div#final-perder {
     margin-top: -1px;
     z-index: 1;
     transition: all 0.4s ease-in-out;
+    position: relative;
+    top: -461px;
+    left: -2px;
+    font-size: 16px;
 }
   .button-jogar:disabled {
     background-color: #646e68;

@@ -351,7 +351,7 @@ var carta1 = {
       cartaJogador.atributos[atributoSelecionado] >
       cartaMaquina.atributos[atributoSelecionado]
     ) {
-      htmlResultado = `<p class="resultado">Isso aí humano! Você conseguiu!</p>`;
+      htmlResultado = `<p class="resultado">Você conseguiu!</p>`;
       pontosJogador++
       proximaRodada()
       
@@ -360,12 +360,12 @@ var carta1 = {
       cartaMaquina.atributos[atributoSelecionado]
     ) {
       htmlResultado = `<p class="resultado">Perdeu!
-      Cuidado!<br> O bicho pega e não solta mais!</p>`
+      Cuidado!</p>`
       pontosMaquina++
       proximaRodada()
       
     } else {
-      htmlResultado = `<p class='resultado'>Empatou! Você e eu somos um time!</p>`
+      htmlResultado = `<p class='resultado'>Empatou!</p>`
       proximaRodada()
     }
   
