@@ -274,15 +274,15 @@ div#final-perder {
 
 @media only screen and (max-width: 415px) {
   .container {
-    width: 197px; 
-    height: 682px;
+    width: 197px;
+    height: 737px;
     /* background-color: tomato; */
     display: flex;
     gap: 32px;
     position: relative;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: nowrap;
 }
   .monster-card {
@@ -335,6 +335,9 @@ div#final-perder {
     transition: all 0.4s;
     box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px;
     text-transform: uppercase;
+    position: absolute;
+    top: 370px;
+    left: 51px;
 }
   #opcoes {
     position: relative;
@@ -360,25 +363,41 @@ div#final-perder {
     background-color: #646e68;
     transform: scale(1);
     position: fixed;
-    top: 401px;
-    left: 163px;
-  }
-  .button-jogar {
-    width: 95px;
-    height: 90px;
-    border-radius: 20%;
-    font-size: 1.2rem;
-    background-color: #322717;
-    border: 4px solid #ffffff;
-    color: #ffffff;
-    /* border: none; */
-    position: absolute;
-    align-self: center;
-    top: 296px;
-    left: 53px;
-    cursor: pointer;
-    /* transition: all 0.4s; */
-    font-family: 'Poppins', sans-serif;
-    box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+    top: 382px;
+    left: 253px;
+}
+.button-jogar {
+  width: 99px;
+  height: 73px;
+  border-radius: 10%;
+  font-size: 1.2rem;
+  background-color: #322717;
+  border: 4px solid #ffffff;
+  color: #ffffff;
+  /* border: none; */
+  position: absolute;
+  align-self: center;
+  top: 331px;
+  left: 145px;
+  cursor: pointer;
+  /* transition: all 0.4s; */
+  font-family: 'Poppins', sans-serif;
+  box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+}
+.btn-sortear {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  background-color: #322717;
+  border: none;
+  padding: 8px 11px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  transition: all 0.4s;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 401px;
+  left: 48px;
 }
 }
