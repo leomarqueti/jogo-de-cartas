@@ -390,14 +390,22 @@ div#final-perder {
   font-size: 1.2rem;
   background-color: #322717;
   border: none;
-  padding: 8px 11px;
+  padding: 21px 19px;
   margin-bottom: 10px;
   border-radius: 50px;
   transition: all 0.4s;
   box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px;
   text-transform: uppercase;
   position: absolute;
-  top: 401px;
-  left: 48px;
+  top: 385px;
+  left: 45px;
+}
+.monster-card {
+  width: 354px;
+  height: 323px;
+  background-image: url('bg-card-mobile.png');
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
 }
 }
