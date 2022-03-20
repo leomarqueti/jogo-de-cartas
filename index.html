@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url("fundo-inicio.jpg");
+            background-size: cover;
+        }
+        .button-jogar {
+            width: 173px;
+            height: 82px;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            background-color: #322717;
+            border: 4px solid #ffffff;
+            color: #ffffff;
+            /* border: none; */
+            position: absolute;
+            align-self: center;
+            top: 286px;
+            left: 861px;
+            cursor: pointer;
+            /* transition: all 0.4s; */
+            font-family: 'Poppins', sans-serif;
+            box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+        }
+
+        .button-jogar:hover {
+        transform: scale(1.1);
+        }
+
+        .button-jogar:disabled {
+        background-color: #646e68;
+        transform: scale(1);
+        }
+        
+        .botao {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="botao">
+        <a href="jogo.html"><button type="button" class="button-jogar" id="btnJogar" onclick="jogar()">Jogar</button></a>
+    </div>
+    
+</body>
+</html>
