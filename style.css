@@ -345,20 +345,20 @@ div#final-perder {
     left: -67px;
   }
   .resultado {
-    color: #252525;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
     padding: 15px 30px;
-    margin-bottom: 27px;
+    margin-bottom: 30px;
     border-radius: 50px;
     transition: all 0.4s;
     /* box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px; */
     /* text-transform: uppercase; */
-    margin-top: -16px;
+    margin-top: -1px;
     z-index: 1;
     transition: all 0.4s ease-in-out;
-  }
+}
   .button-jogar:disabled {
     background-color: #646e68;
     transform: scale(1);
