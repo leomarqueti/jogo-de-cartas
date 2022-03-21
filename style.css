@@ -272,6 +272,47 @@ div#final-perder {
   margin-top: 81px;
 }
 
+#vetor {
+  animation: translate 127s infinite -20s linear;
+  position: absolute;
+  top: 612px;
+  left: -660px;
+  width: 30%;
+}
+#vetor2 {
+  animation: translate 130s infinite -20s linear;
+  position: absolute;
+  top: 534px;
+  left: 631px;
+  width: 30%;
+}
+#vetor3 {
+  animation: translate 120s infinite -20s linear;
+  position: absolute;
+  top: 466px;
+  left: 37px;
+  width: 21%;
+}
+
+#vetor4 {
+  animation: translate 135s infinite -20s linear;
+  position: absolute;
+  top: 630px;
+  left: -397px;
+  width: 21%;
+}
+
+
+@keyframes translate {
+from {
+  transform: translateX(-80%);
+}
+to {
+  transform: translateX(170%);
+}
+}
+
+
 @media only screen and (max-width: 415px) {
   .container {
     width: 197px;
@@ -412,4 +453,8 @@ div#final-perder {
   overflow: hidden;
   box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
 }
+
+
+
+
 }
